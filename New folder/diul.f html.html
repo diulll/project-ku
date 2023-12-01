@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>UKM IK - Website</title>
+    
+    <link rel="stylesheet" href="ik nopal.css">
+</head>
+
+<body>
+
+
+    <header>
+        <img src="logo_ukmik.png" alt="">
+        
+        <h1>UKM Informatika & Komputer</h1>
+        <nav>
+            <ul>
+                <li> <a href="#about">About Us</a> </li>
+                <li> <a href="#departement">Departement</a></li>
+                <li> <a href="#contact"> Contact us</a></li>
+                
+                
+            </ul>
+        </nav>
+        
+    </header>
+    <!-- 
+        TODO: Tugas 3 - Buat bagian 'About Us' dengan tag <section>
+        - Tambahkan tag <h2> dengan teks "About Us"
+        - Buat paragraf <p> atau beberapa paragraf untuk menjelaskan organisasi
+    -->
+    <section id="about">
+        <h2> About Us </h2>
+        <p> UKM IK adalah organisasi mahasiswa yang bergerak di bidang informatika dan komputer. UKM ini bertujuan untuk meningkatkan dan mengembangkan kreatifitas mahasiswa di bidang keilmuan, teknologi, dan seni. </p>
+    
+    </section>
+
+    <!-- 
+        TODO: Tugas 4 - Buat bagian 'departement' dengan tag <section>
+        - Tambahkan tag <h2> dengan teks "Our Departement"
+        - Buat beberapa div atau tag lain untuk menampilkan informasi tentang setiap departemen dengan ketentuan : 
+            HINT :  tiap departemen dibungkus dengan 1 tag <div> dengan mempunyai atribut class "departement",
+                    tag <div> tersebut memiliki 2 child yang berisi :
+                    1) <h1> untuk menuliskan nama departemen
+                    2) <p> yang berisi penjelasan singkat mengenai departemen
+    -->
+    <section id="departement">
+        <h2>Our Departemen</h2>
+    
+        <div class="departemen">
+            <h1>Departemen Pendidikan </h1>
+            <p>Departemen pendidikan adalah unit yang bertanggung jawab untuk membina dan mengembangkan potensi intelektual dan akademik mahasiswa.</p>
+        </div>
+    
+        <div class="departemen">
+            <h1>Departemen Humas</h1>
+            <p>
+                Departemen humas adalah unit kerja yang bertanggung jawab untuk mengelola hubungan antara organisasi dengan publiknya.</p>
+        </div>
+    
+        <div class="departemen">
+            <h1>Departemen Publikasi</h1>
+            <p>Departem Publikasi adalah departemen yang bertanggung jawab untuk menyampaikan informasi kepada publik.</p>
+        </div>
+
+        <div class="departemen">
+            <h1>Departemen Minat Bakat</h1>
+            <p>Departemen Minat Bakaat adalah departemen yang bertanggung jawab dalam mengembangkan minat dan bakat mahasiswa di bidang olahraga, kesenian, dan kebudayaan.</p>
+        </div>
+        
+        <div class="departemen">
+            <h1>Departemen Keanggotaan</h1>
+            <p>Departemen keanggotaan adalah departemen yang bertanggung jawab untuk mengelola keanggotaan organisasi. Departemen ini bertanggung jawab untuk menarik, mendaftarkan, dan mempertahankan anggota organisasi.</p>
+        </div>
+    
+        <!-- Tambahkan departemen lainnya di sini -->
+    </section>
+    
+       
+        
+    </section>
+
+    <!-- 
+        TODO: Tugas 5 - Buat bagian 'Contact Us' dengan tag <section>
+        - Tambahkan tag <h2> dengan teks "Contact Us"
+        - Buat formulir kontak sederhana dengan tag <form>, termasuk input untuk nama, email, pesan, dan tombol kirim
+    -->
+    <section id="contact">
+        <h2>Contact us</h2>
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+        
+    </section>
+
+    <!-- 
+        TODO: Tugas 6 - Tambahkan tag <footer> dengan hak cipta dan informasi organisasi
+        - Tambahkan informasi hak cipta dan detail kontak atau informasi lainnya yang relevan
+    -->
+    <footer>
+        <p>&copy; 2022 Organisasi Anda. Seluruh hak cipta dilindungi.</p>
+        <p>Alamat: 	Jl. Raya Janti (Majapahit) No. 143, Karang Jambe, Banguntapan, Bantul, Daerah Istimewa Yogyakarta, Indonesia</p>
+        <p>Email: UKMIKutdi@gmail.com</p>
+        <p>Telepon: +62 8577 9873</p>
+    </footer>
+
+</body>
+</html>
